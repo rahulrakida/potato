@@ -43,6 +43,7 @@ except KeyError:
         logging.ERROR,
         "No Discord bot token detected. Are you trying to run this program without setting BOT_TOKEN?"
     )
+    quit(1)
 PREFIX = "?"
 
 
